@@ -3,18 +3,18 @@
  * Shows traditional integration vs Integration Hub
  */
 
-import Link from 'next/link';
+import { Navigation } from '@/components/Navigation';
 
 export default function ComparisonPage() {
   return (
     <div className="min-h-screen bg-gray-50">
+      {/* Navigation */}
+      <Navigation />
+      
       {/* Header */}
       <header className="border-b border-gray-200 bg-white">
         <div className="mx-auto max-w-7xl px-4 py-6 sm:px-6 lg:px-8">
-          <Link href="/" className="text-sm text-gray-500 hover:text-gray-700">
-            ← Back to Dashboard
-          </Link>
-          <h1 className="mt-2 text-3xl font-bold text-gray-900">
+          <h1 className="text-3xl font-bold text-gray-900">
             Integration Comparison
           </h1>
           <p className="mt-1 text-sm text-gray-500">
