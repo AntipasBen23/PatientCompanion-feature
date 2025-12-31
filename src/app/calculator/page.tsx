@@ -13,7 +13,7 @@ import { Navigation } from '@/components/Navigation';
 export default function CalculatorPage() {
   const [inputs, setInputs] = useState({
     hospitalBeds: 200,
-    currentVendor: VENDORS[0].name,
+    currentVendor: 'Hillrom',
     avgResponseTimeMinutes: 8,
   });
 
